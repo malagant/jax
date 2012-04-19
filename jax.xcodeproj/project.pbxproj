@@ -16,7 +16,6 @@
 		CF62550C153EF2F800169925 /* JAXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF62550A153EF2F800169925 /* JAXViewController.m */; };
 		CF62550D153EF2F800169925 /* JAXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF62550B153EF2F800169925 /* JAXViewController.xib */; };
 		CF62550F153EF57300169925 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF62550E153EF57300169925 /* logo.jpg */; };
-		CF625513153EF8FF00169925 /* JAXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF625511153EF8FF00169925 /* JAXLoginViewController.m */; };
 		CF625514153EF8FF00169925 /* JAXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF625512153EF8FF00169925 /* JAXLoginViewController.xib */; };
 		CF62562C153EFDD800169925 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF738F3153EFBB600253A83 /* libRestKitCoreData.a */; };
 		CF62562D153EFDD800169925 /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF738EF153EFBB600253A83 /* libRestKitJSONParserJSONKit.a */; };
@@ -29,7 +28,6 @@
 		CF625638153EFE0600169925 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF625637153EFE0600169925 /* Security.framework */; };
 		CF62563A153EFE0C00169925 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF625639153EFE0C00169925 /* SystemConfiguration.framework */; };
 		CF62563C153EFE1800169925 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF62563B153EFE1800169925 /* libxml2.dylib */; };
-		CF625640153EFE6300169925 /* JAXLoginDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = CF62563F153EFE6300169925 /* JAXLoginDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,8 +132,6 @@
 		CF62550A153EF2F800169925 /* JAXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAXViewController.m; sourceTree = "<group>"; };
 		CF62550B153EF2F800169925 /* JAXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JAXViewController.xib; path = jax/JAXViewController.xib; sourceTree = "<group>"; };
 		CF62550E153EF57300169925 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = SOURCE_ROOT; };
-		CF625510153EF8FF00169925 /* JAXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAXLoginViewController.h; sourceTree = "<group>"; };
-		CF625511153EF8FF00169925 /* JAXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAXLoginViewController.m; sourceTree = "<group>"; };
 		CF625512153EF8FF00169925 /* JAXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JAXLoginViewController.xib; path = jax/JAXLoginViewController.xib; sourceTree = "<group>"; };
 		CF625631153EFDE500169925 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CF625633153EFDF000169925 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -143,8 +139,6 @@
 		CF625637153EFE0600169925 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CF625639153EFE0C00169925 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CF62563B153EFE1800169925 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		CF62563E153EFE6300169925 /* JAXLoginDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAXLoginDTO.h; path = jax/JAXLoginDTO.h; sourceTree = "<group>"; };
-		CF62563F153EFE6300169925 /* JAXLoginDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAXLoginDTO.m; path = jax/JAXLoginDTO.m; sourceTree = "<group>"; };
 		CFF738CE153EFBB600253A83 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ../../selfservice/SelfService/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,8 +209,6 @@
 				CF6254F9153EF2B100169925 /* Supporting Files */,
 				CF625501153EF2B100169925 /* JAXAppDelegate.h */,
 				CF625502153EF2B100169925 /* JAXAppDelegate.m */,
-				CF625510153EF8FF00169925 /* JAXLoginViewController.h */,
-				CF625511153EF8FF00169925 /* JAXLoginViewController.m */,
 			);
 			path = jax;
 			sourceTree = "<group>";
@@ -247,8 +239,6 @@
 		CF62563D153EFE3C00169925 /* JSONMappings */ = {
 			isa = PBXGroup;
 			children = (
-				CF62563E153EFE6300169925 /* JAXLoginDTO.h */,
-				CF62563F153EFE6300169925 /* JAXLoginDTO.m */,
 			);
 			name = JSONMappings;
 			sourceTree = "<group>";
@@ -428,8 +418,6 @@
 				CF6254FF153EF2B100169925 /* main.m in Sources */,
 				CF625503153EF2B100169925 /* JAXAppDelegate.m in Sources */,
 				CF62550C153EF2F800169925 /* JAXViewController.m in Sources */,
-				CF625513153EF8FF00169925 /* JAXLoginViewController.m in Sources */,
-				CF625640153EFE6300169925 /* JAXLoginDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

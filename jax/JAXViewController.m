@@ -7,7 +7,6 @@
 //
 
 #import "JAXViewController.h"
-#import "JAXLoginViewController.h"
 
 @interface JAXViewController ()
 
@@ -47,10 +46,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == 1) {
-        JAXLoginViewController *jvc = [[JAXLoginViewController alloc] init];
-        [self.navigationController pushViewController:jvc animated:YES];
-    }
 }
 
 - (void)viewDidUnload
