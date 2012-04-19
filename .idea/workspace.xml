@@ -22,19 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JAXLoginDTO.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jax/JAXLoginDTO.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="56" selection-start="534" selection-end="534" vertical-scroll-proportion="0.32478634">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAXLoginViewController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JAXLoginViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jax/JAXLoginViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="12" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
+            <state line="52" column="115" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.8055556">
               <folding />
             </state>
           </provider>
@@ -48,10 +39,10 @@
         <option value="$PROJECT_DIR$/jax/JAXViewController.h" />
         <option value="$PROJECT_DIR$/jax/JAXViewController.m" />
         <option value="$PROJECT_DIR$/jax/jax-Prefix.pch" />
-        <option value="$PROJECT_DIR$/jax/JAXLoginViewController.m" />
         <option value="$PROJECT_DIR$/jax/JAXLoginDTO.h" />
         <option value="$PROJECT_DIR$/jax/JAXAppDelegate.m" />
         <option value="$PROJECT_DIR$/jax/JAXLoginDTO.m" />
+        <option value="$PROJECT_DIR$/jax/JAXLoginViewController.m" />
       </list>
     </option>
   </component>
@@ -300,22 +291,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32999474" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23721665" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -376,9 +367,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jax/jax-Prefix.pch">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="306" selection-end="306" vertical-scroll-proportion="0.2345679">
-          <folding />
-        </state>
+        <state line="13" column="4" selection-start="306" selection-end="306" vertical-scroll-proportion="0.2345679" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jax/JAXViewController.m">
@@ -401,16 +390,14 @@
         <state line="24" column="74" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jax/JAXLoginViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="12" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jax/JAXLoginDTO.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="534" selection-end="534" vertical-scroll-proportion="0.32478634">
+        <state line="20" column="56" selection-start="534" selection-end="534" vertical-scroll-proportion="0.32478634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jax/JAXLoginViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="115" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.8055556">
           <folding />
         </state>
       </provider>

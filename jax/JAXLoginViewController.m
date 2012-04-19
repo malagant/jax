@@ -41,15 +41,21 @@
 
     RKObjectManager *manager = [RKObjectManager sharedManager];
     if ([[RKObjectManager sharedManager].client isNetworkAvailable]) {
-        [manager postObject:loginDTO delegate:self];
+        RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[JAXLoginDTO class]];
+        [mapping mapAttributes:@"username", @"password", @"status", nil];
+        [manager postObject:loginDTO mapResponseWith:mapping delegate:self];
     } else {
-        [[UIAlertView alloc] initWithTitle:@"ERROR" message:@"Network unreachable. Please try again." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [[[UIAlertView alloc] initWithTitle:@"ERROR" message:@"Network unreachable. Please try again." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil] show];
     }
+}
+
+- (void)objectLoader:(RKObjectLoader *)objectLoader didLoadObject:(id)object {
+    [[[UIAlertView alloc] initWithTitle:@"SUCCESS" message:@"Login successful" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
 }
 
 - (void)objectLoader:(RKObjectLoader *)objectLoader didFailWithError:(NSError *)error {
     NSLog(@"Error: %@", error);
-    [[UIAlertView alloc] initWithTitle:@"ERROR" message:[NSString stringWithFormat:@"%@", error.description] delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+    [[[UIAlertView alloc] initWithTitle:@"ERROR" message:[NSString stringWithFormat:@"%@", error.description] delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil] show];
 }
 
 @end
